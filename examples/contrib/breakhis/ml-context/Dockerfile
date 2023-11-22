@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.7.1-gpu
+FROM tensorflow/tensorflow:2.7.1
 
 COPY requirements.txt swarmlearning-client-py3-none-manylinux_2_24_x86_64.whl /tmp/swarmlib/
 
